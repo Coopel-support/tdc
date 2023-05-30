@@ -5,14 +5,14 @@
 
 * {
 	padding: 0;
-	margin: 0;
+	margin: 0px;
 	box-sizing: border-box;
 }
 
 body {
 	background: #056DAE;
 	font-family: 'Quicksand', sans-serif;
-
+	margin: -.5rem;
 	min-height: 100vh;
 	display: flex;
 	align-items: center;
@@ -20,28 +20,28 @@ body {
 }
 
 .contenedor {
-	width: 90%;
-	max-width: 800px;
+	width: 85%;
+	max-width: 80rem;
 	border-radius: 10px;
 	overflow: hidden;
 	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 	background: #fff;
 	min-height: 60vh;
-
 	display: grid;
 	grid-template-columns: 1fr 1fr;
 }
 
 .columna-izquierda {
-	padding: 4rem;
+	padding: 2rem 3rem 2rem 1.5rem;
 }
 
 .columna-derecha {
 	background-image: url(../img/clasica.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
-	background-position-x: center;
+	background-position-x: center;		
 }
+
 
 .header {
 	margin-bottom: 40px;
@@ -49,14 +49,18 @@ body {
 	align-items: center;
 
 }
+
 .logo {
 	background-image: url(../img/logo.jpg);
 	background-position-x: center;
-	height: 3rem;
-	background-size: 70%;
+	height: 2rem;
+	background-size: 90%;
 	background-repeat: no-repeat;
+	@media (min-width: 768px) {
+	background-size: 50%;	
+	height: 3.5rem;
 }
-
+}
 .header h1 {
 	color: var(--primario);
 }
@@ -110,10 +114,10 @@ input {
 	height: 50px;
 	line-height: 50px;
 	font-size: 12px;
-	width: 100%;
+	width: 110%;
 	border: none;
 	border-radius: 5px;
-	padding: 0 20px 0 45px;
+	padding: 0 0.5rem 0 1.7rem;
 	margin-bottom: 20px;
 	background: #f4f8f7;
 	color: var(--primario);
@@ -131,7 +135,7 @@ input:focus {
 	position: absolute;
 	color: var(--primario);
 	top: 17px;
-	left: 17px;
+	left: 8px;
 } 
 
 .contenedor-boton {
@@ -148,7 +152,7 @@ button {
 	background: none;
 	height: 50px;
 	color: var(--primario);
-	padding: 0 40px;
+	padding: 0 60px;
 	display: flex;
 	align-items: center;
 	justify-content: end;
