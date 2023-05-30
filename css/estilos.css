@@ -37,7 +37,7 @@ body {
 }
 
 .columna-derecha {
-	background-image: url(/img/clasica.jpg);
+	background-image: url(..img/clasica.jpg);
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position-x: center;
@@ -50,7 +50,7 @@ body {
 
 }
 .logo {
-	background-image: url(/img/logo.jpg);
+	background-image: url(..img/logo.jpg);
 	background-position-x: center;
 	height: 3rem;
 	background-size: 70%;
